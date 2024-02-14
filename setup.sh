@@ -30,7 +30,7 @@ sudo rm -r ./temp
 # Install programming languages
 sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
-sudo pat install -y default-jdk
+sudo apt install -y default-jdk
 
 # Create folders
 mkdir ~/ICS4U
