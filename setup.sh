@@ -28,7 +28,7 @@ cd ~
 sudo rm -r ./temp
 
 # Install programming languages
-sudo apt install unzip
+sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
 sudo pat install -y default-jdk
 
