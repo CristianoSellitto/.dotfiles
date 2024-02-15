@@ -32,10 +32,6 @@ sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
 sudo apt install -y default-jdk
 
-# Create folders
-mkdir ~/ICS4U
-mkdir ~/ICS4U/Unit1
-
 # Reboot system
 echo Trying to reboot...
 sudo reboot now
