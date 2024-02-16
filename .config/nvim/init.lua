@@ -1,4 +1,4 @@
-md("set encoding=utf-8")
+vim.cmd("set encoding=utf-8")
 vim.cmd("set termguicolors")
 
 vim.cmd("set number")
