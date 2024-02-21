@@ -13,8 +13,10 @@ sudo apt install git -y
 git config --global user.email "cristiano.sellitto@mths.ca"
 git config --global user.name "Cristiano Sellitto"
 sudo apt install gh -y
+sudo apt install tree -y
 sudo apt install stow -y
 stow .
+
 
 # Install java linter
 cd ~
