@@ -23,10 +23,10 @@ cd ~
 sudo apt install wget -y
 mkdir ~/scripts
 wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.13.0/checkstyle-10.13.0-all.jar
-cp ./checkstyle-10.3.0-all.jar ~/scripts/checkstyle.jar
+cp ./checkstyle-10.3.3-all.jar ~/scripts/checkstyle.jar
 wget https://raw.githubusercontent.com/Mr-Coxall/dot_files/main/mr-coxall_checks.xml
 cp ./mr-coxall_checks.xml ~/scripts/
-rm checkstyle-10.3.0-all.jar
+rm checkstyle-10.3.3-all.jar
 rm mr-coxall_checks.xml
 
 # Install NeoVim from source
