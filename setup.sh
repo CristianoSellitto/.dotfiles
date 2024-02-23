@@ -42,7 +42,7 @@ sudo rm -r ./temp
 # Install programming languages
 sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
-bun add bun-promptx
+# bun add bun-promptx
 sudo apt install -y default-jdk
 
 # Reboot system
