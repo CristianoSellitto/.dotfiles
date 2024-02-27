@@ -2,6 +2,7 @@
 # Created by Cristiano Sellitto
 # Creatd on 2024-02-14
 # Setup script for Debian
+# Make sure the files are in ~/.dotfiles
 
 # Update computer
 sudo apt update
@@ -38,6 +39,7 @@ cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 cd ~
 sudo rm -r ./temp
+cp -r ./.dotfiles/.config/nvim/ ./.config/nvim
 
 # Install programming languages
 sudo apt install -y unzip
