@@ -16,6 +16,7 @@ git config --global user.name "Cristiano Sellitto"
 sudo apt install gh -y
 sudo apt install tree -y
 sudo apt install stow -y
+cd ~/.dotfiles
 stow .
 
 
