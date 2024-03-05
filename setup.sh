@@ -45,6 +45,10 @@ cp -r ./.dotfiles/.config/nvim/ ./.config/nvim
 # Install programming languages
 sudo apt install -y unzip
 curl -fsSL https://bun.sh/install | bash
+sudo apt install -y nodejs
+sudo apt install -y npm
+sudo npm i -g typescript-language-server
+sudo npm i -g typescript
 # bun add bun-promptx
 sudo apt install -y default-jdk
 
